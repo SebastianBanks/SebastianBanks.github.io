@@ -4,10 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sebastian's Portfolio</title>
 </head>
 <body>
-    <h1>Sebastian Banks</h1>
-    
+    <main>
+        <div class="navigation">
+            <a class="link" id="about" href="#aboutSection">About Me</a>
+            <a class="link" id="skills" href="#skillsSection">Skills</a>
+            <a class="link" id="projects" href="#projectSection">Projects</a>
+            <a class="link" id="contact" href="#contactSection">Contact</a>
+        </div>
+        <div class="portfolio">
+            <div class="page" id="aboutSection">
+                <div id="photoAndTitle">
+                    <img src="images/IMG_1832.jpg" id="profilePic" alt="Sebastian Banks's Profile Picture">
+                    <h1 id="name">Sebastian Banks</h1>
+                    <h2 id="title">iOS Developer</h2>
+                </div>
+                <div class="content" id="aboutContent">
+                    <h1 class="sectionHeader">About Me</h1>
+                    <hr>
+                    <p class="contentInfo" id="aboutMeInfo">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate risus id egestas interdum. Nunc ultrices sollicitudin convallis. Morbi eleifend mauris quis dapibus euismod. Suspendisse potenti. In dapibus, turpis eu condimentum ultrices, lacus diam iaculis purus, sed feugiat lacus nisl vitae ipsum. Duis blandit arcu mattis, dignissim velit vitae, molestie felis. Cras et facilisis nisl. Fusce purus nunc, pharetra sit amet sagittis at, maximus vel lectus. Pellentesque id vulputate mi.
+                    </p>
+                </div>
+            </div>
+            <div class="page" id="skillsSection">
+                <h1 class="sectionHeader">Skills</h1>
+                <hr class="skillRuler">
+                <div id="skillAlign">
+                    <div class="skillCard" id="swift">
+                        <img class="skillImage" src="images/swift.png" alt="swift language icon">
+                        <h3 class="skillName">Swift</h3>
+                    </div>
+                    <div class="skillCard" id="swiftUi">
+                        <img class="skillImage" src="images/swiftui.png" alt="swiftUi language icon">
+                        <h3 class="skillName">SwiftUi</h3>
+                    </div>
+                    <div class="skillCard" id="uiKit">
+                        <img class="skillImage" src="images/uikit.png" alt="uiKit language icon">
+                        <h3 class="skillName">UIKit</h3>
+                    </div>
+                    <div class="skillCard" id="xcode">
+                        <img class="skillImage" src="images/xcode.png" alt="xcode icon">
+                        <h3 class="skillName">XCode</h3>
+                    </div>
+                    <div class="skillCard" id="javascript">
+                        <img class="skillImage" src="images/javascript.png" alt="javascript language icon">
+                        <h3 class="skillName">Javascript</h3>
+                    </div>
+                    <div class="skillCard" id="html">
+                        <img class="skillImage" src="images/html.png" alt="html language icon">
+                        <h3 class="skillName">HTML</h3>
+                    </div>
+                    <div class="skillCard" id="css">
+                        <img class="skillImage" src="images/css.png" alt="css language icon">
+                        <h3 class="skillName">CSS</h3>
+                    </div>
+                    <div class="skillCard" id="node">
+                        <img class="skillImage" src="images/node.png" alt="node icon">
+                        <h3 class="skillName">Node</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="projectSection">
+                <h1 class="sectionHeader">Projects</h1>
+                <hr class="skillRuler">
+                <div class="projects">
+                    
+                    <div class="projectCard" id="myMeditation">
+                        <img class="projectImage" src="images/myMeditation.png" alt="myMeditian example image">
+                        <a class="projectLink" href="https://apps.apple.com/us/app/mymeditation-mindfulness-app/id1601051456" target="_blank">
+                            <h1 class="projectName">myMeditation</h1>
+                        </a>
+                        <h2 class="projectDesc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate risus id egestas interdum. Nunc ultrices sollicitudin convallis. Morbi eleifend mauris quis dapibus euismod. Suspendisse potenti. In dapibus, turpis eu condimentum ultrices, lacus diam iaculis purus, sed feugiat lacus nisl vitae ipsum.
+                        </h2>
+                        <h3 class="techUsed">
+                            SwiftUi | Combine | HealthKit
+                        </h3>
+                    </div>
+                    <div class="projectCard" id="cryptaegis">
+                        <img class="projectImage" src="images/cryptaegis.png" alt="cryptaegis example image">
+                        <a class="projectLink" href="https://cryptaegis-exchange.herokuapp.com" target="_blank">
+                            <h1 class="projectName">Cryptaegis</h1>
+                        </a>
+                        <h2 class="projectDesc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate risus id egestas interdum. Nunc ultrices sollicitudin convallis. Morbi eleifend mauris quis dapibus euismod. Suspendisse potenti. In dapibus, turpis eu condimentum ultrices, lacus diam iaculis purus, sed feugiat lacus nisl vitae ipsum.
+                        </h2>
+                        <h3 class="techUsed">
+                            Javascript | OAuth | AWS
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="contactSection">
+                <h1 class="sectionHeader">Contact</h1>
+                <hr class="skillRuler">
+                <div class="contactInfo">
+                    <a class="contactIcon" id="email" href="mailto:sebastian@thebanksfamily.net" target="_blank">
+                        <img class ="contactImage" src="images/email.png" alt="email icon">
+                        <h1 class="contactType">Email</h1>
+                    </a>
+                    <a class="contactIcon" id="linkden" href="https://www.linkedin.com/in/sebastianbanks/" target="_blank">
+                        <img class ="contactImage" src="images/linkedin.png" alt="linkeden logo">
+                        <h1 class="contactType">Linkedin</h1>
+                    </a>
+                    <a class="contactIcon" id="github" href="https://github.com/SebastianBanks" target="_blank">
+                        <img class ="contactImage" src="images/GitHub.png" alt="github logo">
+                        <h1 class="contactType">GitHub</h1>
+                    </a>
+                    <a class="contactIcon" id="resume" href="images/resume.png" target="_blank">
+                        <img class ="contactImage" src="images/resume.png" alt="resume icon">
+                        <h1 class="contactType">Resume</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

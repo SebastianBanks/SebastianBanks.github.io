@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    background-color: #D4D2D5;
+    font-family: Oxygen, sans-serif;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    width: 30%;
+    height: 400px;
+    position: fixed;
+    display: flex;
+    top: 25%;
+    left: 60px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.link {
+    color: #282828;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link:active {
+    color: #04724D;
+}
+
+.portfolio {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 200px;
+}
+
+#profilePic {
+    width: 300px;
+    height: 300px;
+    border-radius: 33px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#title {
+    font-size: 20px;
+    color: #255C99;
+    margin-top: -10px;
+}
+
+.page {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content {
+    margin-left: 80px;
+}
+
+.sectionHeader {
+    color: #04724D;
+    font-size: 30px;
+}
+
+#aboutMeInfo {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.skillImage, .contactImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 33px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.skillRuler {
+    width: 100%;
+}
+
+#skillsSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+#skillAlign {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.skillCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    margin: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.projects {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#projectSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectLinkImage {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.projectCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    margin: 35px;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #255C99;
+    border-radius: 33px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.projectImage {
+    width: 330px;
+    height: 220px;
+    margin-left: 12px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.projectName {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.projectDesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.techUsed {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-weight: 700;
+}
+
+#contactSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactInfo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 35px;
+}
+
+.contactIcon {
+    margin: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contactType {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
