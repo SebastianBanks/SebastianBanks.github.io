@@ -99,6 +99,45 @@ main {
     box-shadow: 5px 5px 20px gray;
 }
 
+@media screen and (max-width: 1400px) {
+    
+    .contactImage {
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+    }
+
+    .contactType {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contactImage {
+        width: 90px;
+        height: 90px;
+        border-radius: 20px;
+    }
+
+    .contactType {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contactImage {
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+
+    .contactType {
+        font-size: 12px;
+    }
+}
+
+
 .skillRuler {
     width: 100%;
 }
@@ -219,6 +258,11 @@ main {
     margin: 35px;
     text-align: center;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.contactIcon:hover {
+    transform: scale(1.1);
 }
 
 .contactType {
