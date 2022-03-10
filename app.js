@@ -8,6 +8,8 @@ const skillsLink = document.getElementById("skills")
 const projectsLink = document.getElementById("projects")
 const contactLink = document.getElementById("contact")
 
+aboutLink.style.color = "#04724D"
+
 aboutLink.addEventListener("click", function(e) {
     aboutLink.style.color = "#04724D"
     skillsLink.style.color = "#282828"
