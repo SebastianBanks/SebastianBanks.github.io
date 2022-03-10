@@ -8,9 +8,10 @@
     <title>Sebastian's Portfolio</title>
 </head>
 <body>
+    <hr id="top">
     <main>
         <div class="navigation">
-            <a class="link" id="about" href="#aboutSection">About Me</a>
+            <a class="link" id="about" href="#top">About Me</a>
             <a class="link" id="skills" href="#skillsSection">Skills</a>
             <a class="link" id="projects" href="#projectSection">Projects</a>
             <a class="link" id="contact" href="#contactSection">Contact</a>
@@ -26,7 +27,10 @@
                     <h1 class="sectionHeader">About Me</h1>
                     <hr>
                     <p class="contentInfo" id="aboutMeInfo">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate risus id egestas interdum. Nunc ultrices sollicitudin convallis. Morbi eleifend mauris quis dapibus euismod. Suspendisse potenti. In dapibus, turpis eu condimentum ultrices, lacus diam iaculis purus, sed feugiat lacus nisl vitae ipsum. Duis blandit arcu mattis, dignissim velit vitae, molestie felis. Cras et facilisis nisl. Fusce purus nunc, pharetra sit amet sagittis at, maximus vel lectus. Pellentesque id vulputate mi.
+                        I am an iOS developer that is always eager to learn new things both in and out of the tech space. I spent a year teaching myself iOS development, I’d study just about everyday after work and on the weekends. I’m proud to say I was able to publish my first app before I started an iOS development bootcamp. I graduated that bootcamp May 2022 and I’m excited to get my first programming job. Failure isn’t part of my playbook and I strive to always put out my best work. I have to admit I’m kind of a perfectionist and I enjoy figuring out the most efficient way of doing things. 
+                    </p>
+                    <p class="contentInfo">
+                        Outside of programming I enjoy watching anime. My favorites being Soul Eater, Naurto, and Demon Slayer. I also enjoy playing Overwatch with my friends and playing Minecraft with my sister. As I said earlier I love learning new things and I aspire to someday learn how to play the guitar. 
                     </p>
                 </div>
             </div>
@@ -79,10 +83,10 @@
                             <h1 class="projectName">myMeditation</h1>
                         </a>
                         <h2 class="projectDesc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate risus id egestas interdum. Nunc ultrices sollicitudin convallis. Morbi eleifend mauris quis dapibus euismod. Suspendisse potenti. In dapibus, turpis eu condimentum ultrices, lacus diam iaculis purus, sed feugiat lacus nisl vitae ipsum.
+                            Built a mediation app using Swift and SwiftUI. This application utilizes technologies such as Combine, Core Data, HealthKit, and Core Haptics. Users can easily start a meditation and track their meditation goals overtime. They also have the option to listen to calming tracks while they meditate and set up notifications to keep them on track of their meditation goals.
                         </h2>
                         <h3 class="techUsed">
-                            SwiftUi | Combine | HealthKit
+                            Swift | SwiftUi | Combine | HealthKit
                         </h3>
                     </div>
                     <div class="projectCard" id="cryptaegis">
@@ -91,10 +95,10 @@
                             <h1 class="projectName">Cryptaegis</h1>
                         </a>
                         <h2 class="projectDesc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate risus id egestas interdum. Nunc ultrices sollicitudin convallis. Morbi eleifend mauris quis dapibus euismod. Suspendisse potenti. In dapibus, turpis eu condimentum ultrices, lacus diam iaculis purus, sed feugiat lacus nisl vitae ipsum.
+                            Created a e-commerce website like KSL or Craigslist that allows for cryptocurrency transactions. This website was built on Javascript, HTML, CSS, NodeJS, Express, and PostgreSQL. This website also utilizes platforms like Coinbase API and AWS. CryptoJS was also used to encrypt the users data. The user signs in with a Coinbase OAuth and then has the ability to create new items and edit those items later. 
                         </h2>
                         <h3 class="techUsed">
-                            Javascript | OAuth | AWS
+                            Javascript | OAuth | AWS | CryptoJS | Node
                         </h3>
                     </div>
                 </div>
@@ -115,7 +119,7 @@
                         <img class ="contactImage" src="images/GitHub.png" alt="github logo">
                         <h1 class="contactType">GitHub</h1>
                     </a>
-                    <a class="contactIcon" id="resume" href="images/resume.png" target="_blank">
+                    <a class="contactIcon" id="resume" href="images/Sebastian Banks Resume.pdf" target="_blank">
                         <img class ="contactImage" src="images/resume.png" alt="resume icon">
                         <h1 class="contactType">Resume</h1>
                     </a>
@@ -123,5 +127,6 @@
             </div>
         </div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
