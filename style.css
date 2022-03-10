@@ -36,7 +36,8 @@ main {
 }
 
 #top {
-    width: 0;
+    width: 0px;
+    height: 0px;
 }
 
 .portfolio {
@@ -82,6 +83,7 @@ main {
 .sectionHeader {
     color: #04724D;
     font-size: 30px;
+    text-align: center;
 }
 
 .contentInfo {
@@ -106,7 +108,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: start;
+    
 }
 
 #skillAlign {
