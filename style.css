@@ -71,7 +71,7 @@ main {
 
 #title {
     font-size: 20px;
-    color: #255C99;
+    color: #53243A;
     margin-top: -10px;
 }
 
@@ -86,7 +86,7 @@ main {
 }
 
 .sectionHeader {
-    color: #04724D;
+    color: #255C99;
     font-size: 30px;
     text-align: center;
 }
@@ -210,7 +210,7 @@ main {
     padding: 20px;
     align-items: flex-start;
     justify-content: space-evenly;
-    background-color: #255C99;
+    background-color: #53243A;
     border-radius: 33px;
     box-shadow: 5px 5px 20px gray;
 }
